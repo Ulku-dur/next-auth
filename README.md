@@ -93,7 +93,8 @@ exports.onExecutePostLogin = async (event, api) => {
     api.accessToken.setCustomClaim(`${namespace}/roles`, assignedRoles);
   }
 };
-Auth0 > Actions > Flows > Login → içine bu Action’ı eklemeyi unutma.
+
+
 📂 Sayfa Yapısı
 
 /dashboard/admin: Sadece admin rolüne sahip kullanıcılar girebilir
